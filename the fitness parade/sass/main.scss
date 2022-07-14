@@ -1,0 +1,27 @@
+// abtract file contains elements which are not useable to show output on screen
+@import "Abstracts/functions";
+@import "Abstracts/mixin";
+@import "Abstracts/variables";
+// base file is about to create a file of designing
+@import "base/animation";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+// component file contains elements which are reuseable in our code
+@import "components/button";
+@import "components/composition";
+@import "components/bg_videos";
+@import "components/card";
+@import "components/feature-box";
+@import "components/form";
+@import "components/popup";
+@import "components/story";
+// layout file contains all sections of our page
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navigation";
+
+// pages file contains all pages like home and sub pages
+@import "pages/home";

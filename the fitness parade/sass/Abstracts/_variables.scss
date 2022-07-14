@@ -1,0 +1,55 @@
+// colors
+$color--violet: #726eff;
+$color--primary: #5affe7;
+$color--light-primary: #08c6ab;
+$color--light-black: #37465b;
+$color--greish-black: #212b38;
+$color--greish-black-1: rgba(33, 43, 56, 0.692);
+
+// shades:
+$color--grey-light-1: #f7f7f7;
+$color--light-bg: #ddd;
+
+$color-white: #fff;
+$color-black: #000;
+
+$color--black-text: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+$shading-secondary: linear-gradient(
+  to right bottom,
+  $color-secondary-light,
+  $color-secondary-dark
+);
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+$shading-tertiary: linear-gradient(
+  to right bottom,
+  $color-tertiary-light,
+  $color-tertiary-dark
+);
+
+// background shadow:
+$bg-shadow-1: linear-gradient(
+  to right bottom,
+  rgba($color--primary, 0.8),
+  rgba($color--light-primary, 0.8)
+);
+
+$bg-shadow-2: linear-gradient(
+  to right bottom,
+  rgba($color--light-black, 0.8),
+  rgba($color--greish-black, 0.8)
+);
+// Fonts:
+$default-font-size: 1.6rem;
+
+// gaps in grid
+$grid-width: 100rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
